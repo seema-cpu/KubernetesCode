@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("seema/gitops")
+       app = docker.build("seema86g/gitops")
     }
 
     stage('Test image') {
